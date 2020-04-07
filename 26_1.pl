@@ -1,4 +1,4 @@
-man(anatoliy).
+﻿man(anatoliy).
 man(dimitriy).
 man(vladimir).
 man(zahar).
@@ -183,6 +183,17 @@ pr5_5:-	see('c:/Prolog/26_1_Prolog_F/1111.txt'),read_list_str(List),seen,
 
 
 
+pr5_6:- see('file5_6.txt'), read_list_str(List, LengthList), seen, max(LengthList, Max), write(Max).
+
+read_list_str(List, LengthList):-read_str(A,N,Flag),read_list_str([A],List,[N],LengthList,Flag).
+read_list_str(List,List,LengthList, LengthList,1):-!.
+read_list_str(Cur_list,List,CurLengthList,LengthList,0):-
+	read_str(A,N,Flag),append(Cur_list,[A],C_l),append(CurLengthList, [N], NewLengthList),read_list_str(C_l,List,NewLengthList,LengthList,Flag).
+
+max(List, MaxEl):- max(List, 0, MaxEl).
+max([],CurMax, CurMax):- !.
+max([H|T], CurMax, X):- H > CurMax, NewMax is H, max(T,NewMax,X), !.
+max([_|T], CurMax, X):- max(T, CurMax, X).
 
 
 
