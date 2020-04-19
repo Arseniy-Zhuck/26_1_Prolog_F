@@ -1,0 +1,8 @@
+C:\Prolog\26_2_prolog_F\1_2\1_2\bin\Debug\_1_2.exe.config
+C:\Prolog\26_2_prolog_F\1_2\1_2\bin\Debug\_1_2.XML
+C:\Prolog\26_2_prolog_F\1_2\1_2\bin\Debug\_1_2.exe
+C:\Prolog\26_2_prolog_F\1_2\1_2\bin\Debug\_1_2.pdb
+C:\Prolog\26_2_prolog_F\1_2\1_2\bin\Debug\FSharp.Core.dll
+C:\Prolog\26_2_prolog_F\1_2\1_2\bin\Debug\FSharp.Core.xml
+C:\Prolog\26_2_prolog_F\1_2\1_2\obj\Debug\_1_2.exe
+C:\Prolog\26_2_prolog_F\1_2\1_2\obj\Debug\_1_2.pdb
