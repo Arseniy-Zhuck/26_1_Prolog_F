@@ -8,6 +8,7 @@ let min2 x y =
     if x<y then x
     else y
 let sum2 x y = x+y
+
 let p3 f x y z =
     let f2 = f x y
     f f2 z
